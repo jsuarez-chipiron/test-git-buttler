@@ -1,8 +1,11 @@
-#include <iostream>
+#include "common.h"
 
 int main()
 {
-    std::cout << "hola mundo\n";
+    for (int i = 0; i != 10; ++i)
+    {
+        printer();
+    }
 
     return 0;
 }
