@@ -8,3 +8,9 @@ This project has multiple files.
 
 The outcome is a printer program
 
+### Compile
+
+```
+make clean && make
+```
+
