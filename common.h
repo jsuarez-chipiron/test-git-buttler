@@ -1,6 +1,7 @@
 #include <iostream>
+#include <string_view>
 
-void printer()
+void printer(std::string_view what_to_print)
 {
-    std::cout << "print me!!\n";
+    std::cout << what_to_print << '\n';
 }
